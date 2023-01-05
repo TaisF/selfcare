@@ -14,14 +14,19 @@
 }
 .banner{
     margin: 0 auto;
-    float: left;
-    list-style: none;
+    width: 100%;
     
+}
+.banner-img{
+
+    width: 100%;
 }
 .column {
     float: left;
-    width: 33.33%;
+    width: 100%;
+    border-bottom: 2px solid grey;
   }
+
 .col-100 {
     width: 100%;
     float: left;
@@ -30,9 +35,10 @@
 
 .col-3 {
     text-align: left;
-    padding-left: 15px;
+    padding-left: 27px;
     padding-right: 15px; 
-    width: 29%;
+    width: 30%;
     float: left;
     position: relative;
 }
+
